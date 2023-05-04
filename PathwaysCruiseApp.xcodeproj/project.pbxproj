@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72017EE729D72B6B00A150A9 /* Cruise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72017EE629D72B6B00A150A9 /* Cruise.swift */; };
+		72017EE929D7877700A150A9 /* CostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72017EE829D7877700A150A9 /* CostViewController.swift */; };
+		723F880929C3B83B0068F102 /* ColorSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723F880829C3B83B0068F102 /* ColorSet.xcassets */; };
+		727A294829D3D75000E6BB77 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727A294729D3D75000E6BB77 /* ResultsViewController.swift */; };
+		72B9F2A729D2398F00A395FD /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9F2A629D2398F00A395FD /* SelectionViewController.swift */; };
+		72FB49AE29D7FACA00F9DFA8 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FB49AD29D7FACA00F9DFA8 /* FinalViewController.swift */; };
 		72FDDFD729C12A7000908726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FDDFD629C12A7000908726 /* AppDelegate.swift */; };
 		72FDDFD929C12A7000908726 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FDDFD829C12A7000908726 /* SceneDelegate.swift */; };
 		72FDDFDB29C12A7000908726 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FDDFDA29C12A7000908726 /* ViewController.swift */; };
 		72FDDFDE29C12A7000908726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FDDFDC29C12A7000908726 /* Main.storyboard */; };
-		72FDDFE029C12A7100908726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FDDFDF29C12A7100908726 /* Assets.xcassets */; };
 		72FDDFE329C12A7100908726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FDDFE129C12A7100908726 /* LaunchScreen.storyboard */; };
+		72FDDFED29C12ED500908726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FDDFEC29C12ED500908726 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72017EE629D72B6B00A150A9 /* Cruise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cruise.swift; sourceTree = "<group>"; };
+		72017EE829D7877700A150A9 /* CostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostViewController.swift; sourceTree = "<group>"; };
+		723F880829C3B83B0068F102 /* ColorSet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorSet.xcassets; sourceTree = "<group>"; };
+		727A294729D3D75000E6BB77 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		72B9F2A629D2398F00A395FD /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		72FB49AD29D7FACA00F9DFA8 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		72FDDFD329C12A7000908726 /* PathwaysCruiseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathwaysCruiseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FDDFD629C12A7000908726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72FDDFD829C12A7000908726 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		72FDDFDA29C12A7000908726 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72FDDFDD29C12A7000908726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		72FDDFDF29C12A7100908726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72FDDFE229C12A7100908726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72FDDFE429C12A7100908726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72FDDFEC29C12ED500908726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +71,14 @@
 				72FDDFD629C12A7000908726 /* AppDelegate.swift */,
 				72FDDFD829C12A7000908726 /* SceneDelegate.swift */,
 				72FDDFDA29C12A7000908726 /* ViewController.swift */,
+				72FDDFEC29C12ED500908726 /* Assets.xcassets */,
+				723F880829C3B83B0068F102 /* ColorSet.xcassets */,
 				72FDDFDC29C12A7000908726 /* Main.storyboard */,
-				72FDDFDF29C12A7100908726 /* Assets.xcassets */,
+				72017EE829D7877700A150A9 /* CostViewController.swift */,
+				72FB49AD29D7FACA00F9DFA8 /* FinalViewController.swift */,
+				727A294729D3D75000E6BB77 /* ResultsViewController.swift */,
+				72017EE629D72B6B00A150A9 /* Cruise.swift */,
+				72B9F2A629D2398F00A395FD /* SelectionViewController.swift */,
 				72FDDFE129C12A7100908726 /* LaunchScreen.storyboard */,
 				72FDDFE429C12A7100908726 /* Info.plist */,
 			);
@@ -125,8 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723F880929C3B83B0068F102 /* ColorSet.xcassets in Resources */,
 				72FDDFE329C12A7100908726 /* LaunchScreen.storyboard in Resources */,
-				72FDDFE029C12A7100908726 /* Assets.xcassets in Resources */,
+				72FDDFED29C12ED500908726 /* Assets.xcassets in Resources */,
 				72FDDFDE29C12A7000908726 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +158,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				72FDDFDB29C12A7000908726 /* ViewController.swift in Sources */,
+				72B9F2A729D2398F00A395FD /* SelectionViewController.swift in Sources */,
 				72FDDFD729C12A7000908726 /* AppDelegate.swift in Sources */,
+				72017EE929D7877700A150A9 /* CostViewController.swift in Sources */,
+				727A294829D3D75000E6BB77 /* ResultsViewController.swift in Sources */,
+				72FB49AE29D7FACA00F9DFA8 /* FinalViewController.swift in Sources */,
+				72017EE729D72B6B00A150A9 /* Cruise.swift in Sources */,
 				72FDDFD929C12A7000908726 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,16 +308,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = ltgreen;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PathwaysCruiseApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mindy Douglas";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +329,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MindyDouglas.PathwaysCruiseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,16 +340,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = ltgreen;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PathwaysCruiseApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mindy Douglas";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +361,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MindyDouglas.PathwaysCruiseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
